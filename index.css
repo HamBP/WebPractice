@@ -1,0 +1,14 @@
+body {
+    background: #C8C8C8;
+}
+
+.header {
+    display: block;
+    padding: 50px;
+    height: 218px;
+    background: white;
+}
+
+.search-bar {
+    text-align: center;
+}
