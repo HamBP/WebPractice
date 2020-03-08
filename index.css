@@ -1,9 +1,14 @@
+* {
+    margin: 0px;
+}
+
 body {
     background: #C8C8C8;
 }
 
 .header {
-    display: block;
+    display: flex;
+    flex-direction: row;
     padding: 50px;
     height: 218px;
     background: white;
@@ -11,4 +16,9 @@ body {
 
 .search-bar {
     text-align: center;
+}
+
+.search-button button   {
+    border: none;
+    background-color: white;
 }
