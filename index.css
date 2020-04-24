@@ -41,9 +41,15 @@ body {
     border-radius: 5px;
 }
 
+.image > img {
+    display: block;
+    border-radius: 300px;
+}
+
 .image > p {
     display: block;
-    background-color: #707070;
+    background-color: #D0D0D0;
+    line-height: 2;
 }
 
 .read-more {
