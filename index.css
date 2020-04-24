@@ -1,24 +1,56 @@
 * {
     margin: 0px;
+    padding: 0px;
 }
 
 body {
-    background: #C8C8C8;
+    float: center;
 }
 
-.header {
-    display: flex;
-    flex-direction: row;
+.profile {
+    display: block;
     padding: 50px;
-    height: 218px;
-    background: white;
+    background-color: #E8E8E8;
+    width: 650px;
+    height: auto;
+    color: #282828;
+    border-radius: 10px;
 }
 
-.search-bar {
+.profile h1 {
+    font-size: 50px;
+    font-weight: middle;
+}
+
+.profile h2 {
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+.summary {
+    display: block;
+    text-align: center;
+    line-height: 1.6;
+}
+
+.discription, .image {
+    margin: 20px;
+    padding: 5px;
+    border: solid 1px;
+    border-color: #C8C8C8;
+    border-radius: 5px;
+}
+
+.image > p {
+    display: block;
+    background-color: #707070;
+}
+
+.read-more {
+    margin: 10px;
     text-align: center;
 }
 
-.search-button button   {
-    border: none;
-    background-color: white;
+.footer {
+    margin-top: 30px;
 }
