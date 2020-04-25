@@ -26,6 +26,14 @@ body {
     text-align: center;
 }
 
+#note {
+    line-height: 3;
+}
+
+.title-box {
+    margin-top: -20px;
+}
+
 .personal, .apply, .education, .essay {
     border: solid 1px;
     border-color: #C8C8C8;
@@ -43,7 +51,7 @@ body {
 
 
 button {
-    display: inline-block;
+    display: inline;
     color: white;
     background-color: red;
     font-size: 16px;
