@@ -41,12 +41,9 @@ body {
     margin-bottom: 20px;
 }
 
-.education > ul {
-    display: none;
-}
 
 button {
-    display: inline;
+    display: inline-block;
     color: white;
     background-color: red;
     font-size: 16px;
@@ -60,4 +57,8 @@ button {
     margin: 0 auto;
     width: auto;
     height: auto;
+}
+
+.essay > div {
+    margin: 10px 0px;
 }
