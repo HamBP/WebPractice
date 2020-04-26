@@ -30,10 +30,6 @@ body {
     line-height: 3;
 }
 
-.title-box {
-    margin-top: -20px;
-}
-
 .personal, .apply, .education, .essay {
     border: solid 1px;
     border-color: #C8C8C8;
@@ -61,12 +57,20 @@ button {
     box-shadow: none;
 }
 
-.submit_button {
-    margin: 0 auto;
-    width: auto;
-    height: auto;
-}
-
 .essay > div {
     margin: 10px 0px;
+}
+
+.essay textarea {
+    height: 70px;
+    width: 350px;
+}
+
+#submit_button {
+    display: flex;
+    justify-content: center;
+}
+
+legend {
+    font-weight: bold;
 }

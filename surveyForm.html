@@ -11,32 +11,32 @@
         <div class="application-form">
             <h1>Application For Permission To Date My Daughter</h1>
             <p id=note><strong>Note:</strong> Form is to be completed at least 21 days prior to date</p>
-            
-            <form action="get">
-                <div class="personal">
-                    <div class="title-box">Personal Details</div>
+            <form action="" method="post">
+            <!-- Personal Details -->
+                <fieldset class="personal">
+                    <legend>Personal Details</legend>
                     <div class="personal-list">
                         <label for="name">NAME: </label>
                         <input type="text" name="name" placeholder="Enter name here">
                     </div>
                     <div class="personal-list">
                         <label for="address">ADDRESS: </label>
-                        <input type="text" name="address" placeholder="Enter address here">
+                        <input type="address" name="address" placeholder="Enter address here">
                     </div>
                     <div class="personal-list">
                         <label for="email">EMAIL: </label>
-                        <input type="text" name="email" placeholder="Enter email here">
+                        <input type="email" name="email" placeholder="Enter email here">
                     </div>
                     <div class="personal-list">
                         <label for="phone_number">PHONE NUMBER: </label>
-                        <input type="text" name="phone_number" placeholder="Enter 10 digit number">
+                        <input type="number" name="phone_number" placeholder="Enter 10 digit number" min="1" max="9">
                     </div>
                     <div class="personal-list">
                         <label for="iq">IQ: </label>
-                        <input type="text" name="iq" placeholder="Enter IQ here">
+                        <input type="number" name="iq" placeholder="Enter IQ here">
                     </div>
                     <div class="interval">
-                        <label for="gender">GENDER</label>
+                        <label for="gender">Gender</label>
                     </div>
                     <div class="gender-list">
                         <input type='radio' name='gender'>Male</input>
@@ -49,10 +49,11 @@
                     </div>
                     <div class="interval">
                         <label for="date" class="interval">Date of Proposed Quting:</label>
-                        <input type="text" placeholder="Year-Month-Day">
+                        <input type="date">
                     </div>
-                </div>
+                </fieldset>
                 
+                <!-- check all that apply -->
                 <div class="apply">
                     <p>Check All That Apply</p>
                     <div class="checkbox-list">
@@ -75,6 +76,7 @@
                     </div>
                 </div>
 
+                <!-- political persuaion -->
                 <div class="education">
                     <label for="">Political Persuasion:</label>
                     <select name="political" id="">
@@ -93,8 +95,9 @@
                     </select>
                 </div>
 
-                <div class="essay">
-                    <div class="title-box">Essay Section</div>
+                <!-- essay section -->
+                <fieldset class="essay">
+                    <legend>Essay Section</legend>
                     <div>
                         <label for="">In 50 words or more explain why you want to date my daughter</label>
                         <br>
@@ -105,14 +108,13 @@
                         <br>
                         <textarea name="upload" id="" cols="30" rows="10" placeholder="Enter Text Here"></textarea>    
                     </div>
-                    <p>Upload Police Clearance Certificate, Bank Statement and Medical Certifiates here: </p>
-                    <button>Attach Files</button>
+                    <p>Upload Police Clearance Certificate, Bank Statement and Medical Certifiates here:  <button>Attach Files</button></p>
+                </fieldset>
+                <div id="submit_button">
+                    <button type="submit">Send Your Application</button>
                 </div>
-                <div class="submit_button"><button type="submit">Send Your Application</button></div>
-                
             </form>
         </div>
-        
         
     </body>
 </html>
