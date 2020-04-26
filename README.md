@@ -1,2 +1,2 @@
 # WebStudy
-naver 카피하기
+카피하기
