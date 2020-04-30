@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+}
+
+.header {
+    color: white;
+    text-align: center;
+    background-image: url("./asset/landing_logo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: auto;
+    height: auto;
+    padding: 80px;
+}
+
+.header > p {
+    font-weight: middle;
+}
+
+.header #landing_btn {
+    font-size: 1.2em;
+    padding: 20px 30px;
+    color: white;
+    background-color: #222;
+    border: solid 1px;
+    border-color: #666;
+}
+
+.header #landing_btn:hover {
+    color: #222;
+    background-color: #DDD;
+}
