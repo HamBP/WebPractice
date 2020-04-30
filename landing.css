@@ -1,4 +1,5 @@
 body {
+    color: #222;
     margin: 0;
 }
 
@@ -30,4 +31,62 @@ body {
 .header #landing_btn:hover {
     color: #222;
     background-color: #DDD;
+}
+
+.development {
+    text-align: center;
+}
+
+.development > .container {
+    display: flex;
+    justify-content: center;
+}
+
+.development > .container > .description {
+    width: mixmax(auto, 500px);
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    background-color: #222;
+}
+
+.content > .item {
+    margin: 30px 15px;
+    width: 300px;
+    height: auto;
+    background-color: white;
+    text-align: center;
+}
+
+.content > .item > h3 {
+    font-size: 24px;
+    line-height: 3.0;
+}
+
+.content > .item > p {
+    margin: 30px;
+    font-size: 20px;
+}
+
+.content > .item img {
+    width: inherit;
+    height: 220px;
+}
+
+.company-PR {
+    padding: 50px 20px;
+    height: auto;
+    text-align: center;
+}
+
+.company-PR #atext {
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 100px;
+}
+
+.company-PR p {
+    font-size: 20px;
 }
