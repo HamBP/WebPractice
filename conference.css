@@ -1,0 +1,88 @@
+body {
+    background: #293f50;
+    color: white;
+    font-weight: 100;
+    font-size: 16px / 22px;
+    font-family: "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: #648880;
+}
+
+h2, h3, h4 {
+    font-weight: 100;
+    color: #648880;
+    margin-bottom: 22px;
+}
+
+.wrapper {
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    width: 960px;
+}
+
+.left {
+    display: inline;
+    text-align: left;
+}
+
+.right {
+    display: inline;
+    text-align: right;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+.header {
+    vertical-align: baseline;
+    width: 960px;
+}
+
+.logo {
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+h3.tagline {
+    text-transform: capitalize;
+}
+
+.nav-bar li {
+    display: inline;
+    text-transform: uppercase;
+    list-style: none;
+}
+
+.here.container {
+    text-align: center;
+}
+
+.hero.container p {
+    font-size: 24px;
+    margin-bottom: 22px;
+}
+
+a.register-btn {
+    padding: 10px 30px;
+    text-transform: uppercase;
+    border: solid 1px white;
+    border-radius: 5px;
+}
+
+a.register-btn:hover {
+    color: #648880;
+    background: white;
+}
+
+.main {
+    color: #888;
+}
